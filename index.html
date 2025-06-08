@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,11 +9,9 @@
       margin: 0;
       background-color: #f4f4f4;
       font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       text-align: center;
-      padding-top: 80px; /* 上からの余白 */
+      padding-top: 80px;
+      color: #333;
     }
     h1 {
       font-size: 2em;
@@ -34,13 +32,40 @@
       color: #666;
       margin-top: 0.2em;
     }
+    .contact {
+      margin-top: 2em;
+      font-size: 0.95em;
+      color: #444;
+    }
+    .screenshot {
+        margin-top: 2em;
+    }
+    .screenshot img {
+        max-width: 20%;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
   <h1>Makoto TAMURA Portfolio</h1>
-  <a href="https://makototamura.com/kimono_viewer_app/index.html" target="_blank">
-    Kimono Styler Demo （開発中）
-  </a>
-  <div class="subtext">View in browser</div>
+
+  <p>
+    <a href="https://makototamura.com/kimono_viewer_app/index.html" target="_blank">
+      Kimono Styler（開発中）
+    </a>
+  </p>
+  <div class="subtext">ブラウザでデモを試せます</div>
+    <div class="screenshot">
+        <img src="images/kimono_styler_demo.jpg" alt="Kimono Styler demo screenshot">
+    </div>
+
+  <div class="contact">
+    ご感想・お問い合わせは  
+    makoto907[アット]gmail.com</a>  
+    までお願いいたします。
+  </div>
 </body>
 </html>
